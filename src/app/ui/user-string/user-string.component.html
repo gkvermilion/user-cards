@@ -1,0 +1,4 @@
+<div class="wrap">
+    <p>{{ user.id }} {{ user.userName }} {{ user.isActive }}</p>
+    <button (click)="this.delete.emit(user.id)">Удалить</button>
+</div>

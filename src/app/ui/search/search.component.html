@@ -1,0 +1,5 @@
+<div class="InputContainer">
+    <form [formGroup]="searchForm" (ngSubmit)="this.search.emit(this.searchForm.value.searchValue ?? '')">
+        <input class="input" id="input" name="text" type="text" placeholder="Search..." formControlName="searchValue" />
+    </form>
+</div>

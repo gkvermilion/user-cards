@@ -1,0 +1,10 @@
+<div class="card">
+    <div class="card-border-top">
+    </div>
+    <div class="img">
+    </div>
+    <span>{{user.userName}}</span>
+    <p class="job">{{user.id}}</p>
+    <button [disabled]="!user.isActive" (click)="this.delete.emit(user.id)"> Удалить
+    </button>
+</div>

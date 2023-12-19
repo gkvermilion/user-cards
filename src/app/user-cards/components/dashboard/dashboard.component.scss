@@ -1,0 +1,34 @@
+.user-cards {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    align-self: center;
+    align-content: center;
+    flex-flow: row wrap;
+    padding-left: 20vw;
+    padding-right: 20vw;
+}
+
+.loader {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20vh;
+}
+
+.upper-wrapper {
+    padding-left: 30%;
+    padding-right: 30%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 2%;
+}
+
+.pagination {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 3%;
+}
